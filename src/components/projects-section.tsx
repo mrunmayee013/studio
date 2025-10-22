@@ -2,7 +2,7 @@ import React from 'react';
 import Link from 'next/link';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from '@/components/ui/card';
-import { ArrowRight } from 'lucide-react';
+import { ArrowRight, MoveRight } from 'lucide-react';
 import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from '@/components/ui/carousel';
 
 const projects = [
@@ -61,6 +61,10 @@ export function ProjectsSection() {
         <CarouselPrevious />
         <CarouselNext />
       </Carousel>
+      <p className="flex items-center justify-center text-sm text-muted-foreground md:hidden animate-pulse">
+        <MoveRight className="w-4 h-4 mr-2" />
+        Swipe to see more
+      </p>
     </section>
   );
 }
