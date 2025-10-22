@@ -21,6 +21,13 @@ const projects = [
     image: PlaceHolderImages.find(p => p.id === 'project-2'),
     link: '#',
   },
+  {
+    id: 'project-3',
+    name: 'Personal Blog',
+    description: 'A personal blog to share my thoughts on design, technology, and life.',
+    image: PlaceHolderImages.find(p => p.id === 'project-3'),
+    link: '#',
+  },
 ];
 
 export function ProjectsSection() {
