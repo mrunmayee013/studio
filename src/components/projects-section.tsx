@@ -16,8 +16,8 @@ const projects = [
   },
   {
     id: 'project-2',
-    name: 'Dashboard Vision',
-    description: 'A comprehensive data visualization dashboard for a SaaS platform, designed for clarity and efficiency.',
+    name: 'Restaurant App with Healthy Choices Filter',
+    description: 'Enhanced the UX of a restaurant app, helping users quickly find healthy meal options.',
     image: PlaceHolderImages.find(p => p.id === 'project-2'),
     link: '#',
   },
