@@ -18,12 +18,6 @@ const projects = [
     description: 'Enhanced the UX of a restaurant app, helping users quickly find healthy meal options.',
     link: 'https://www.figma.com/proto/wYDn0LcGXYyEGRufH4Nk3l/flavorfleet?node-id=144-64&starting-point-node-id=144%3A64&t=KUmkfJf4ct4Q83Pc-1',
   },
-  {
-    id: 'project-3',
-    name: 'Personal Blog',
-    description: 'A personal blog to share my thoughts on design, technology, and life.',
-    link: '#',
-  },
 ];
 
 export function ProjectsSection() {
