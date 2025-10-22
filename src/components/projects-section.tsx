@@ -9,8 +9,8 @@ import { PlaceHolderImages } from '@/lib/placeholder-images';
 const projects = [
   {
     id: 'project-1',
-    name: 'Project Aura',
-    description: 'A conceptual mobile app for mindfulness and meditation, focusing on a calming user interface.',
+    name: 'Nike Pre-Launch',
+    description: 'Crafted a user-friendly interface for pre-loved Nike shoes, focusing on clarity and ease of use.',
     image: PlaceHolderImages.find(p => p.id === 'project-1'),
     link: '#',
   },
