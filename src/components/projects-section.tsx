@@ -10,7 +10,7 @@ const projects = [
     id: 'project-1',
     name: 'Nike Pre-Launch',
     description: 'Crafted a user-friendly interface for pre-loved Nike shoes, focusing on clarity and ease of use.',
-    link: '#',
+    link: 'https://www.figma.com/proto/swt3vXmOHd3fgHDERNrfuB/Nike-jordan-Pre-launch-website-design?node-id=1-33&t=DClZ5wWB6h2cgMcl-1',
   },
   {
     id: 'project-2',
@@ -52,7 +52,7 @@ export function ProjectsSection() {
                     </CardContent>
                     <CardFooter className="p-0 pt-4">
                       <Button asChild variant="link" className="p-0 h-auto font-semibold text-primary group/link">
-                        <Link href={project.link}>
+                        <Link href={project.link} target="_blank" rel="noopener noreferrer">
                           View Project
                           <ArrowRight className="ml-2 h-4 w-4 transition-transform duration-200 group-hover/link:translate-x-1" />
                         </Link>
