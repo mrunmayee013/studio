@@ -16,7 +16,7 @@ const projects = [
     id: 'project-2',
     name: 'Restaurant App with Healthy Choices Filter',
     description: 'Enhanced the UX of a restaurant app, helping users quickly find healthy meal options.',
-    link: 'https://www.figma.com/proto/wYDn0LcGXYyEGRufH4Nk3l/flavorfleet?node-id=45-51&starting-point-node-id=144%3A64&t=KUmkfJf4ct4Q83Pc-1',
+    link: 'https://www.figma.com/proto/wYDn0LcGXYyEGRufH4Nk3l/flavorfleet?node-id=144-64&starting-point-node-id=144%3A64&t=KUmkfJf4ct4Q83Pc-1',
   },
   {
     id: 'project-3',
