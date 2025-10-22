@@ -2,9 +2,9 @@
   "placeholderImages": [
     {
       "id": "project-1",
-      "description": "Abstract design for Project Aura",
-      "imageUrl": "https://images.unsplash.com/photo-1605106702842-01a887a31122?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxhYnN0cmFjdCUyMGRlc2lnbnxlbnwwfHx8fDE3NjEwODU4MTZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "abstract design"
+      "description": "Nike shoe product page design",
+      "imageUrl": "https://images.unsplash.com/photo-1595950653106-6c9ebd614d3a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxzbmVha2VyfGVufDB8fHx8MTY4OTU0ODg5Mnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "sneaker product"
     },
     {
       "id": "project-2",
