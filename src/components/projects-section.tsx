@@ -27,7 +27,7 @@ export function ProjectsSection() {
   return (
     <section className="w-full max-w-5xl space-y-10">
       <h2 className="text-3xl md:text-4xl font-bold text-center font-headline">
-        Selected Works
+        Some Selected Work
       </h2>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
         {projects.map((project) => (

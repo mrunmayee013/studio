@@ -4,7 +4,7 @@ export function LandingSection() {
   return (
     <section className="text-center space-y-3">
       <h1 className="text-4xl md:text-5xl font-bold tracking-tight font-headline">
-        Alex Doe
+        Mrunmayee Chaudhari
       </h1>
       <p className="text-lg md:text-xl text-muted-foreground">
         UI/UX Designer | Figma Enthusiast
