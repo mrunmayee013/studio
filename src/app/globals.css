@@ -2,6 +2,29 @@
 @tailwind components;
 @tailwind utilities;
 
+@keyframes sparkle {
+  0% {
+    opacity: 0;
+    transform: scale(0.5) translate(var(--tw-translate-x), var(--tw-translate-y));
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    transform: scale(1.5) translate(var(--tw-translate-x), var(--tw-translate-y));
+  }
+}
+
+.sparkle {
+  position: absolute;
+  width: 2px;
+  height: 2px;
+  background-color: white;
+  border-radius: 50%;
+  animation: sparkle 2s infinite;
+}
+
 body {
   font-family: Arial, Helvetica, sans-serif;
 }
@@ -43,7 +66,7 @@ body {
     --sidebar-ring: 217.2 91.2% 59.8%;
   }
   .dark {
-    --background: 0 0% 3.9%;
+    --background: 0 0% 0%;
     --foreground: 0 0% 98%;
     --card: 0 0% 3.9%;
     --card-foreground: 0 0% 98%;
